@@ -1,0 +1,158 @@
+
+
+.grid4{
+  float:left;
+  padding:4px;
+  width:24%;
+}
+.grid3{
+  float:left;
+  padding:4px;
+  width:33%;
+}
+
+@media only screen and (max-width: 700px){
+    .grid4{
+        width: 49%;
+        margin: 2px 0;
+    }
+    .grid3{
+        width: 49%;
+        margin: 2px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .grid4{
+        width: 97%;
+    }
+    .grid3{
+        width: 97%;
+    }
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.box{
+  width:100%;
+  height:auto;
+  text-align:center;
+}
+.box h2{
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 28px;
+  font-weight: 300;
+}
+.box h3{
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 300;
+  margin:0px;
+}
+
+.white-box {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.box .red{
+  color: #ffffff;
+  background: #d75b40;
+  border: 1px solid #832e18;
+  width:100%;
+  min-height:120px;
+}
+
+.box .voilet{
+  color: #ffffff;
+  background: #3e4d6c;
+  border: 1px solid #1b2741;
+  width:100%;
+  min-height:120px;
+}
+
+.box .blue{
+  color: #ffffff;
+  background: #008efa;
+  border: 1px solid #1b2741;
+  width:100%;
+  min-height:120px;
+}
+
+.box .green{
+  color: #ffffff;
+  background: #87c25b;
+  border: 1px solid #3b6c16;
+  width:100%;
+  min-height:120px;
+}
+
+.fullWidth{
+ width:100%;
+}
+.selectWidth{
+ width:80%;
+}
+.imgResponsive{
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.input-text {
+    width: 20em;
+}
+
+#sp_loginform_submit strong{
+  font-size:15px;
+  font-weight:200;
+}
+
+.sperror
+{
+  color: #c6341c;
+  font-size:20px;	
+}
+
+.spsuccess
+{
+  color: #219b4d;
+  font-size:20px;	
+}
+
+.spdefult{
+  color: #444444;
+  font-size:20px;
+}
+
+.table-responsive {
+    font-size: 15px;
+}
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.sptable {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+table {
+    background-color: transparent;
+}
+.sptable > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 3px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    text-align: left;
+    border-top: 1px solid #c5c1c1;
+}
